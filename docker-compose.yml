@@ -1,0 +1,36 @@
+<<<<<<< HEAD
+networks:
+  dev:
+
+services:
+  nginx:
+    image: nginx:stable-alpine
+    ports:
+      - "9000:80"
+    depends_on:
+      - frontend
+    networks:
+      - dev
+  frontend:
+    build:
+      context: frontend
+    networks:
+=======
+networks:
+  dev:
+
+services:
+  nginx:
+    image: nginx:stable-alpine
+    ports:
+      - "9000:80"
+    depends_on:
+      - frontend
+    networks:
+      - dev
+  frontend:
+    build:
+      context: frontend
+    networks:
+>>>>>>> 0e2c929f2775dd0a385041d339a7e08625c930ea
+      - dev
