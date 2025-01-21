@@ -1,6 +1,7 @@
 # Tesseract OCR
 Ссылка на прошлый репозиторий:
 https://github.com/Juckert/cosmetics
+Бот: @allergen_bot 
 ## Содержание
 - [Установка](#установка)
 - [Пример](#пример)
